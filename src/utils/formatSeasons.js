@@ -1,3 +1,4 @@
+
 export const formatSeasons = allEpisodes => {
   const seasons = {};
   allEpisodes.forEach(e => {
@@ -6,6 +7,5 @@ export const formatSeasons = allEpisodes => {
     }
     seasons[`Season ${e.season}`].push(e);
   });
-  console.log(seasons);
   return seasons;
 };
